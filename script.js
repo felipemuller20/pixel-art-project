@@ -88,6 +88,7 @@ function createInput() {
   let newInput = document.createElement('input');
   newInput.id = 'numberInput'
   newInput.type = 'number';
+  newInput.value = 5;
   newInput.min = '1';
   newInput.max = '50';
   newInput.style.marginTop = '20px'
